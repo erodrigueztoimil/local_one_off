@@ -1,11 +1,4 @@
 # Local One Off
-
-![Code Size](https://img.shields.io/github/languages/code-size/reithal/ProjectCAKE)
-![Last Commit](https://img.shields.io/github/last-commit/reithal/ProjectCAKE)
-
-![Follow](https://img.shields.io/github/followers/reithal?style=social)
-
-
 ## Introduction
 
 During this pandemic, many people are in need of things to do while others need services or gigs done for them. 
@@ -24,18 +17,17 @@ The purpose is more of a volunteer type of gigs.  People can see if it’s a cha
 
 ## Installation
 
-- make sure to start your mamp server
-- to install dependencies run: `npm install` 
+- start mamp server
+- using .env.example file create a .env file and add your corrosponding information
+- `npm install` install dependencies
 
 This should install Node.js, along with Express, Sequelize, MySQL2 modules and express-handlebars.
 
 ## Usage
 
-The application can be invoked locally with the following command:
+- `npm run server` start server
 
-- `npm run server` to start server
-
-Or you can use a demo of the application here: ![DEMO](heroku url here)
+Or you can use a demo of the application here: ![DEMO](https://local-one-off.herokuapp.com/)
 
 ## Collaborators
 
@@ -47,7 +39,3 @@ Ernesto Rodrigez ![ERNESTO](https://github.com/erodrigueztoimil)
 ## License
 
 This project uses the MIT license.
-
-## Questions
-
-If you have any issues or discover a problem please report it at ![Issues](https://github.com/reithal/ProjectCAKE/issues)
